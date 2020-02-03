@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Visit Counter </title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Iceberg&display=swap">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="res/css/styles.css">
+</head>
+<nav id="navbar_top"class="navbar navbar-expand-md navbar-dark fixed-top pr-0" style="background-color: #000000EE;">
+	<a href="index.html#home" class="navbar-brand navbar-logo"> VS </a>
+	<div class="navbar-nav" id="navbar-collapsed">
+		<a href="index.html#home" class="nav-item nav-link navbar-brand">
+			<img src="res/img/home-24px.svg" alt="H">
+		</a>
+		<a href="index.html#about" class="nav-item nav-link navbar-brand">
+			<img src="res/img/person-24px.svg" style="filter: invert(0);" alt="A">
+		</a>
+		<a href="index.html#work" class="nav-item nav-link navbar-brand">
+			<img src="res/img/work-24px.svg" style="filter: invert(0);" alt="W">
+		</a>
+		<a href="index.html#stuff" class="nav-item nav-link navbar-brand">
+			<img src="res/img/Psyduck-512.png" style="width: 25px; height: 25px;" alt="S">
+		</a>
+		<a href="index.html#contact" class="nav-item nav-link navbar-brand">
+			<img src="res/img/perm_phone_msg-24px.svg" style="filter: invert(0);" alt="C">
+		</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse">
+		<div id="navbarFull" class="navbar-nav ml-auto pr-2">
+			<a href="index.html#home" class="nav-item nav-link">HOME</a>
+			<a href="index.html#about" class="nav-item nav-link">ABOUT</a>
+			<a href="index.html#work" class="nav-item nav-link">WORK</a>
+			<a href="index.html#stuff" class="nav-item nav-link">STUFF</a>
+			<a href="index.html#contact" class="nav-item nav-link">CONTACT</a>
+		</div>
+	</div>
+</nav>
+<body onload="loadCounter()">
+	<div id="vc_container" class="stuff_container">
+		<span class="vcounter_text">
+			YOU HAVE VISITED THIS SITE
+		</span>
+		<span id="counter_var" class="vcounter">
+			0
+		</span>
+		<span id="ctv_pl_sr" class="vcounter_text">
+			TIMES.
+		</span>
+		<span id="nice" class="vcounter_text">
+			NICE.
+		</span>
+	</div>
+	<script src="res/js/visit_counter.js" type="text/javascript"></script>
+</body>
+</html>
