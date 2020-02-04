@@ -83,5 +83,15 @@
 		</div>
 	</div>
 	<script src="res/js/skill_table.js" type="text/javascript"></script>
+	<script>
+		window.onscroll = function() {
+			stickNavbar()
+		};
+		function stickNavbar() {
+			document.getElementById('navbar_top').style.position = 'fixed';
+			document.getElementById('navbar_top').style.width = '100vw';
+			document.getElementById('navbar_top').style.zIndex = 99;
+		}
+	</script>
 </body>
 </html>
