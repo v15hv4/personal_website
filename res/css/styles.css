@@ -60,7 +60,7 @@ html::-webkit-scrollbar {
 	/* scroll-snap-align: center; */
 	padding-left: 5vw;
 	padding-right: 5vw;
-	background-image: url('../img/whoami_bg.png');
+	background-image: url('https://drive.google.com/uc?export=view&id=1Z689qdWw42V33SSm-pozClgiVXpnr2tq');
 	background-size: cover;
 	background-color: #8a1313;
 }
@@ -70,7 +70,7 @@ html::-webkit-scrollbar {
 	color: #1c1c1c;
 	padding-left: 5vw;
 	padding-right: 5vw;
-	background-image: url('../img/mywork_bg.png');
+	background-image: url('https://drive.google.com/uc?export=view&id=1fvCZ7rML0FvCjkOlBvpZ2yX8FZvDC_XV');
 	background-size: cover;
 	background-color: #00b8d4;
 }
@@ -80,7 +80,7 @@ html::-webkit-scrollbar {
 	color: #1c1c1c;
 	padding-left: 5vw;
 	padding-right: 5vw;
-	background-image: url('../img/stuffnthings_bg.png');
+	background-image: url('https://drive.google.com/uc?export=view&id=14PKaE-78_a6CXgfDZMcSSqNgsjYY8cuc');
 	background-size: cover;
  	background-color: #ffd600;
 }
@@ -89,7 +89,7 @@ html::-webkit-scrollbar {
 	/* scroll-snap-align: end; */
 	padding-left: 5vw;
 	padding-right: 5vw;
-	background-image: url('../img/contactme_bg.png');
+	background-image: url('https://drive.google.com/uc?export=view&id=1Oseop7831odbUyhLf4FYxul_AtI7tPvR');
 	background-size: cover;
 	background-color: #2e7d32;
 }
