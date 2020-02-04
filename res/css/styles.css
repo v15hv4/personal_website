@@ -616,10 +616,15 @@ td {
 }
 
 .st_name, .st_skill,
-.st_lvl, .st_cmt {
+.st_lvl, .st_cmt, .st_title {
 	color: #eee;
 	text-align: center;
 	height: 7vh;
+}
+
+.st_title {
+	color: #26A69A;
+	height: 5vh;
 }
 
 #vc_container {
